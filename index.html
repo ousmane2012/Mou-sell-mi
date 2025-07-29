@@ -3,61 +3,54 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
- 
 	<title>formation MIC</title>
-<link rel="stylesheet" type="text/css" href="ouze.css"/>
+	<link rel="stylesheet" type="text/css" href="ouze.css"/>
+	<script>
+	function showMessage() {
+		alert("Merci pour votre message !");
+	}
+	</script>
 </head>
-<body bgcolor="brown">
+<body style="background-color: brown; color: floralwhite;">
 
-	<font color="floralwhite"><h1>FORMATION MIC UVS</h1></font>
-	   <marquee><h2>Bonjour les étudiants ! &#x1F44B;</h2></marquee> 
-         <div style="border:3px solid floralwhite;"></div>
+	<h1>FORMATION MIC UVS</h1>
+	<marquee><h2>Bonjour les étudiants ! 👋</h2></marquee>
+    <div style="border:3px solid floralwhite;"></div>
 
-    <font color="floralwhite"><section>
-  <p>Les metiers de la formation multimédia internet et communication<br>
-domaine des médias on peut travailler dans :</p>
- <ol>
-   <li>les services de communication de collectivités locales<br></li>
+	<section>
+		<!-- (Ton contenu existant ici) -->
 
-<li>les services de communication de collectivités locales<br></li>
+		<h3>Contactez-nous</h3>
+		<form method="POST" action="" onsubmit="showMessage()">
+			<label>Nom :</label><br>
+			<input type="text" name="nom" required><br><br>
 
-  <li>les secteurs de la formation<br></li>
+			<label>Message :</label><br>
+			<textarea name="message" required></textarea><br><br>
 
-<li>les services commerciaux<br></li>
+			<input type="submit" value="Envoyer">
+		</form>
 
-  <li>les services de gestion<br></li>
-</ol>
-      
- <p>Dans le domaine de l’audiovisuel on peut travailler dans:</p>
+		<?php
+		if ($_SERVER["REQUEST_METHOD"] == "POST") {
+			$nom = htmlspecialchars($_POST['nom']);
+			$message = htmlspecialchars($_POST['message']);
+			echo "<p>Merci $nom pour votre message :</p>";
+			echo "<blockquote>$message</blockquote>";
+		}
+		?>
+	</section>
 
-  <ol>
-    <li>les agences de communication<br></li>
+	<div style="border:3px solid floralwhite;"></div>
 
-<li>les agences de création audiovisuelle<br></li>
+	<p>INFORMATIONS COMPLÉMENTAIRES <a href="https://www.unchk.sn/nos-formations/formations-initiales/pole-sciences-technologie-et-numerique-stn/licence-en-multimedia-internet-et-communication-digitale/">cliquer ici!</a></p>
+	<p>DEMANDE D'ADMISSION<br>
+	CONTACTER nous au 782735803</p> 
+	<p style="color: black;">ousmane MOU SELL MI 🧠</p>
 
-   <li> entreprises prestataires de services<br></li>
-
-<li>les agences de création de sites Internet<br></li>
-
-    <li>les agences de conception multimédia<br></li>
-
-<li>les agences de communication audiovisuelle<br></li>
-   
-   </ol>
-</section></font>
-        <div style="border:3px solid floralwhite;"></div>
- 
-    <p>INFORMATIONS COMPLÉMENTAIRES<a href="https://www.unchk.sn/nos-formations/formations-initiales/pole-sciences-technologie-et-numerique-stn/licence-en-multimedia-internet-et-communication-digitale/">cliquer ici!</a><br>
-DEMANDE D'ADMISSION<br>
-CONTACTER nous au 782735803<p/><br> 
-    <font color="black">  <p>ousmane MOU SELL MI &#x1F9E0</p></font>
-
-<footer>
-    <img src="logo.jpg"/>
-
-</footer>
+	<footer>
+		<img src="logo.jpg" alt="logo"/>
+	</footer>
 
 </body>
-</html
-
- 
+</html>
