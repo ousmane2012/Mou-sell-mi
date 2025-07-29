@@ -31,14 +31,7 @@
 			<input type="submit" value="Envoyer">
 		</form>
 
-		<?php
-		if ($_SERVER["REQUEST_METHOD"] == "POST") {
-			$nom = htmlspecialchars($_POST['nom']);
-			$message = htmlspecialchars($_POST['message']);
-			echo "<p>Merci nom pour votre message :</p>";
-			echo "<blockquote>message</blockquote>";
-		}
-		?>
+		
 	</section>
 
 	<div style="border:3px solid floralwhite;"></div>
