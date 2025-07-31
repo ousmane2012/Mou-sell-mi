@@ -8,6 +8,12 @@
 	<script>
 	function showMessage() {
 		alert("Merci pour votre message !");
+		alert("Bonjour tout le monde");
+		let prenom = prompt("Quel est ton prenom");
+		let message = " Bonjour " + prenom;
+		alert(message); 
+		document.getElementById("message").innerText=message;
+	</script>
 	}
 	</script>
 </head>
@@ -23,8 +29,8 @@
 		<h3>Contactez-nous</h3>
 		<form method="POST" action="" onsubmit="showMessage()">
 			<label>Nom :</label><br>
-			<input type="text" name="nom" required><br><br>
-
+			<input type="text" name="prénom" required><br><br>
+                        <input type="text" name="nom" required><br><br>
 			<label>Message :</label><br>
 			<textarea name="message" required></textarea><br><br>
 
