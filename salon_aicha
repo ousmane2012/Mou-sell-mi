@@ -1,0 +1,724 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Bonjour</title>
+	<link rel="stylesheet" type="text/css" href="index.css">
+</head>
+<body>
+
+<img src="2.PNG" alt="logo du salon">
+
+ <h1 id="message">Page de connexion </h1><br>
+<marquee><h2>Bienvenue chez wellness & beauty by aïcha </h2></marquee>
+ 
+ <script>  
+	 alert("Bonjour tout le monde"); 
+		  let prenom = prompt("Quel est ton prenom");  
+		 let message = " Bonjour " + prenom; 
+		 alert(message);   
+		  document.getElementById("message").innerText=message;  
+ </script> 
+<nav>
+
+   	<ul>
+
+    <li><a href="file:///C:/Users/UNCHK/Contacts/Desktop/xapp/htdocs/Salon_Aicha/index.html">Acceuil</a></li> 
+    <li><a href="file:///C:/Users/UNCHK/Contacts/Desktop/xapp/htdocs/Salon_Aicha/service.html">Services</a></li> 
+    <li><a href="file:///C:/Users/UNCHK/Contacts/Desktop/xapp/htdocs/Salon_Aicha/Rendez%20vous.html">Rendez vous</a></li>
+
+    </ul>
+
+</nav>
+
+  <p>
+  	Notre salon de coiffure est un espace moderne et chaleureux dédié à la beauté et au bien-être de vos cheveux. Nous proposons une large gamme de services, allant des coupes classiques aux coiffures tendances, en passant par les soins capillaires, les tresses, les colorations et les coiffures événementielles. Notre équipe de professionnels passionnés vous accueille avec écoute et savoir-faire pour sublimer votre style selon vos envies.
+  </p>
+
+
+<img class="image1" src="1.jpg" alt="Description du salon">
+
+<p>
+	"Découvrez le Salon de Coiffure wellness & beauty by aicha, votre partenaire beauté. Forts de plusieurs années d'expérience, nos coiffeurs et coloristes sont spécialisés dans les dernières techniques de coupe et de coloration. Nous travaillons avec des produits de haute qualité pour garantir un résultat exceptionnel et préserver la santé de vos cheveux.
+Nos services :
+Coupes personnalisées : pour hommes, femmes et enfants.
+Coloration et balayage : de la simple retouche aux techniques les plus complexes (ombré, highlights, etc.).
+Soins capillaires : traitements nourrissants et réparateurs.
+Coiffures événementielles : chignons, tresses, et coiffures de mariage.
+Prenez rendez-vous dès aujourd'hui et laissez-nous révéler votre beauté."
+</p>
+<section>
+ <div class="footer">
+ 	<h3 class="GM">Contact:</h3><br>
+
+  <br> Address:Grand Médine <br>
+  Télèphone: 782735803<br>
+  Email:Ouzeb49@gmail.com<br> 
+</div>
+
+<div class="HEUR">
+	
+	<h3>HORAIRES:</h3>
+	<br>Lundi..........10h-17h<br>
+	Mardi..........10h-17h
+	Mercredi.....10h-17h<br>
+	Mercredi.....10h-17h
+
+	Jeudi...........10h-17h<br>
+	Vendredi.....10h-17h
+	Samedi.......10h-15h<br>
+	
+</div>
+
+</section>
+
+<!-- <label>Prénom</label><br> 
+<input type="text" name="Prénom"><br>
+
+<label>Nom</label><br>
+<input type="text" name="l'entreprise"><br>
+
+<label>Nom de l'entreprise </label><br>
+<input type="text" name="Nom"><br>
+
+<label>address email </label><br>
+<input type="email" name="email"><br>
+
+<label>Télèphone</label><br>
+<input type="telephone" name="Telephone"><br>
+
+<label>Date de rendez-vous</label>  <label>Heur</label> <br>
+<input type="date">  <input type="time"> <br><br>
+
+
+ <button>Réserver</button> -->
+</body> 
+</html>
+
+
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>services</title>
+	<link rel="stylesheet" type="text/css" href="index.css">
+</head>
+<body>
+
+	<img src="2.PNG" alt="logo du salon"><marquee><h2>Bienvenue chez wellness & beauty by aïcha </h2></marquee>
+
+<nav>
+
+   	<ul>
+
+    <li><a href="file:///C:/Users/UNCHK/Contacts/Desktop/xapp/htdocs/Salon_Aicha/index.html">Acceuil</a></li> 
+    <li><a href="file:///C:/Users/UNCHK/Contacts/Desktop/xapp/htdocs/Salon_Aicha/service.html">Services</a></li> 
+    <li><a href="file:///C:/Users/UNCHK/Contacts/Desktop/xapp/htdocs/Salon_Aicha/Rendez%20vous.html">Rendez vous</a></li>
+
+    </ul>
+
+</nav>
+
+	<h1>Nos services</h1>
+<div class="conteneur">
+  
+<img class="image4" src="4.JPG"><p class="text"><br>
+	<a href="file:///C:/Users/UNCHK/Contacts/Desktop/xapp/htdocs/Salon_Aicha/Rendez%20vous.html"> <button class="bouton">Réserver</button></a><br>
+	
+     <strong>Nom:</strong> Braids with Boho Curls (ou Tresses bohèmes avec boucles)<br>
+     <strong>Description:</strong> Cette coiffure tendance combine des tresses fines au cuir chevelu (cornrows ou nattes collées) avec des longues mèches bouclées laissées libres, créant un look à la fois structuré et romantique. Les mèches bouclées ajoutent une touche bohème, légère et féminine, parfaite pour un style chic et naturel. Idéale pour les occasions spéciales comme pour un look quotidien sophistiqué.<br>
+     <strong>Prix:15000Fcfa</strong>
+     </p><br>
+     
+	   
+<img class="image5" src="5.JPG"><p class="text"><br>
+	<a href="file:///C:/Users/UNCHK/Contacts/Desktop/xapp/htdocs/Salon_Aicha/Rendez%20vous.html"> <button class="bouton">Réserver</button></a><br>
+ 
+	  <strong>Nom:</strong> Microlocs ou Sisterlocks <br>
+     <strong>Description:</strong> Il s'agit d'une coiffure protectrice de type microlocs (petites mèches de cheveux entrelacées de façon permanente). Les cheveux sont de longueur mi- longue (carré ou épaule) et affichent une couleur rousse/cuivrée vibrante. On peut voir la texture bouclée/ondulée des pointes, typique des locs à un stade précoce ou intermédiaire, et le cuir chevelu est net avec un départ de raidies alignées verticalement.<br> 
+
+      <strong>Prix:25000Fcfa</strong>
+</p><br>
+   
+	 
+
+<img class="image6" src="6.JPG"><p class="text"><br>
+	<a href="file:///C:/Users/UNCHK/Contacts/Desktop/xapp/htdocs/Salon_Aicha/Rendez%20vous.html"> <button class="bouton">Réserver</button></a><br>
+
+     <strong>Nom:</strong> "Chignon Romantique Ciselé" (ou "Élégance Nuptiale Brillante")<br>
+     <strong>Description:</strong>Cette coiffure est un chignon bas et texturé où la majorité des cheveux est tirée vers la nuque en une forme volumineuse composée de boucles souples et définies (souvent appelées barrel curls ou rouleaux). La partie supérieure des cheveux est lissée et plaquée pour une finition nette et brillante. L'élément clé est l'accessoire de cheveux ornemental de style vigne ou couronne, richement incrusté de cristaux ou de strass formant un motif floral ou de feuilles, qui repose sur le dessus du chignon pour une touche de glamour et de sophistication parfaite pour un événement formel ou un mariage. Une mèche douce est laissée à l'avant pour encadrer le visage.<br>
+     <strong>Prix:30000Fcfa</strong> 
+</p><br>
+     
+	  
+
+<img class="image7" src="7.JPG"><p class="text"><br>
+<a href="file:///C:/Users/UNCHK/Contacts/Desktop/xapp/htdocs/Salon_Aicha/Rendez%20vous.html"> <button class="bouton">Réserver</button></a><br>
+ 
+     <strong>Nom:</strong> "Lissé Tressé avec Baby Hairs" (ou "Cheveux Longs Hollywoodiens")<br>
+     <strong>Description:</strong>Cette coiffure combine des cheveux très longs, lisses et brillants laissés libres dans le dos (straight hair). La partie avant est parfaitement lissée et plaquée avec une raie latérale marquée. Un élément
+distinctif est la petite tresse collée (ou cornrow) qui part de la raie et se termine près de l'oreille, ajoutant un détail chic. L'ensemble est encadré par des "baby hairs" (petits cheveux de devant) finement sculptés en vagues au niveau des tempes et du front, ce qui donne un fini net, glamour et sophistiqué. C'est un look très populaire pour son côté à la fois précis et luxueux.<br>
+<strong>Prix:20000Fcfa</strong>
+</p><br>
+   	
+
+ <img class="image8" src="8.JPG"><p class="text"><br>
+	<a href="file:///C:/Users/UNCHK/Contacts/Desktop/xapp/htdocs/Salon_Aicha/Rendez%20vous.html"> <button class="bouton">Réserver</button></a><br>
+
+     <strong>Nom:</strong> "Carré Bouclé Glamour" (ou "Volume Naturel avec Baby Hairs Sculptés)<br><a href="file:///C:/Users/UNCHK/Contacts/Desktop/xapp/htdocs/Salon_Aicha/Rendez%20vous.html"></a>
+
+     <strong>Description:</strong>Cette coiffure présente un volume généreux et une longueur moyenne (type carré long ou bob). Les cheveux affichent des boucles serrées et bien définies (kinky/curly), créant une texture pleine et rebondie. La partie avant est parfaitement lissée et plaquée sur le cuir chevelu, souvent obtenue avec une lace frontale ou une perruque. Le look est finalisé par des "baby hairs" sculptés en vagues élégantes et nettes au niveau des tempes et du front, ce qui contraste avec les boucles sauvages et donne un style sophistiqué, sensuel et très tendance.<br>
+     <strong>Prix:25000Fcfa</strong>
+ </p><br>
+	   
+<img class="image9" src="9.JPG"><p class="text"><br>
+<a href="file:///C:/Users/UNCHK/Contacts/Desktop/xapp/htdocs/Salon_Aicha/Rendez%20vous.html"> <button class="bouton">Réserver</button></a><br>
+   
+     <strong>Nom:</strong> Waves<br>
+     <strong>Description:</strong>C'est une coupe masculine où les cheveux, très courts et coiffés, présentent des ondulations uniformes et circulaires (waves) sur toute la tête. Elle est caractérisée par un dégradé progressif (fade) sur les côtés et la nuque, et une bordure (line-up/edge-up) très nette et droite au niveau du front pour un look ultra soigné. <br>
+
+     <strong>prix:</strong><br>
+         Enfant:3000FCfa <br>
+         Adulte:5000Fcfa
+</p><br>
+	   
+ 
+<img class="image10" src="10.JPG"><p class="text"><br>
+<a href="file:///C:/Users/UNCHK/Contacts/Desktop/xapp/htdocs/Salon_Aicha/Rendez%20vous.html"> <button class="bouton">Réserver</button></a><br>
+ 
+      <strong>Nom:</strong> Taper Fade ou Dégradé Américain avec une partie supérieure bouclée et un Hair Design. <br>
+      <strong>Description:</strong>C'est une coupe pour enfant caractérisée par un dégradé progressif (fade) sur les côtés et la nuque. Le dessus est laissé plus long avec des boucles naturelles et serrées. Le style est complété par une ligne nette (line-up/bordure) au niveau du front et un motif rasé (Hair Design) en forme de doubles lignes sur la tempe. <br>
+
+      <strong>prix:</strong><br>
+         Enfant:3000FCfa <br>
+         Adulte:5000Fcfa
+</p><br>
+	  
+	  <img class="image11" src="11.JPG"><p class="text"><br>
+	<a href="file:///C:/Users/UNCHK/Contacts/Desktop/xapp/htdocs/Salon_Aicha/Rendez%20vous.html"> <button class="bouton">Réserver</button></a><br>
+ 
+	  	<strong>Nom:</strong>(Taper Fade )avec une texture supérieure de type Sponge Twist<br>  
+        <strong>Description:</strong>C'est une coupe masculine avec les cheveux naturels et frisés/bouclés sur le dessus, de longueur moyenne (obtenus avec un mouvement circulaire ou une éponge à boucler). Les côtés et la nuque présentent un dégradé conique (Taper Fade) progressif qui garde le plus de cheveux près du haut de l'oreille. Le style est encadré par une bordure nette (line-up/ edge-up) au niveau du front et des tempes.<br> 
+
+        <strong>prix:</strong><br>
+         Enfant:3000FCfa <br>
+         Adulte:5000Fcfa
+</p><br>
+	  
+	  
+	   <img class="image12" src="12.JPG"><p class="text"> <br>
+	<a href="file:///C:/Users/UNCHK/Contacts/Desktop/xapp/htdocs/Salon_Aicha/Rendez%20vous.html"> <button class="bouton">Réserver</button></a><br>
+ 
+	  	<strong>Nom:</strong>High top twists<br>  
+        <strong>Description:</strong>Cheveux crépus laissés longs sur le dessus, travaillés en petites méches ou twists, côtés en dégradé.e style est complété par une ligne nette (line-up/bordure) au niveau du front et un motif rasé (Hair Design) en forme de doubles lignes sur la tempe. 
+         <br>
+       <strong>prix:</strong><br>
+         Enfant:3000FCfa <br>
+         Adulte:5000Fcfa
+
+</p><br>
+	  
+<img class="image13" src="13.JPG"><p class="text"><br>
+	  	
+  <a href="file:///C:/Users/UNCHK/Contacts/Desktop/xapp/htdocs/Salon_Aicha/Rendez%20vous.html"> <button class="bouton">Réserver</button></a><br>
+ 
+	  	<strong>Nom:</strong>Dégradé avec boucles  <br>  
+        <strong>Description:</strong>Cheveux courts  sur les côtés et bouclés sur le dessus, avec une raie tracée pour un style propre et moderne.Ce qui contraste avec les boucles sauvages et donne un style sophistiqué, sensuel et très tendance.<br>
+        
+         <strong>prix:</strong><br>
+         Enfant:3000FCfa <br>
+         Adulte:5000Fcfa
+</p><br>
+
+<img class="image14" src="14.JPG"><p class="text"><br>
+	<a href="file:///C:/Users/UNCHK/Contacts/Desktop/xapp/htdocs/Salon_Aicha/Rendez%20vous.html"> <button class="bouton">Réserver</button></a><br>
+ 
+	  	<strong>Nom:</strong>Box braids en chignon  <br>  
+        <strong>Description:</strong>Petires tresses fines, mélange de couleurs pour un effet élégant et protecteur.parfaite pour un style chic et naturel Une mèche douce est laissée à l'avant pour encadrer le visage.<br>
+        <strong>Prix:15000Fcfa</strong>
+  </p><br>
+
+  
+
+  <img class="image15" src="15.JPG"><p class="text"><br>
+	  	<a href="file:///C:/Users/UNCHK/Contacts/Desktop/xapp/htdocs/Salon_Aicha/Rendez%20vous.html"> <button class="bouton">Réserver</button></a><br>
+
+	  	<strong>Nom:</strong>Fleur de Cerisier Aiguisée  <br>  
+        <strong>Description:</strong> Cette manucure se caractérise par une forme audacieuse et très longue de type 'stiletto' (pointue). La couleur principale est un rose laiteux et translucide (souvent appelé milky pink ou jelly pink) qui a un fini extrêmement brillant. L'accent est mis sur l'annulaire (et potentiellement le majeur) avec des fleurs 3D délicates, généralement modelées en acrylique ou gel. Ces fleurs, dans des tons de rose et de blanc, sont agrémentées d'un centre doré ou perlé pour un effet luxueux et printanier. C'est un look très féminin, glamour et artistique.<br>
+
+
+<strong>Prix:7000Fcfa</strong>
+  </p><br>
+
+ <img class="image16" src="16.JPG"><p class="text"><br>
+	  	<a href="file:///C:/Users/UNCHK/Contacts/Desktop/xapp/htdocs/Salon_Aicha/Rendez%20vous.html"> <button class="bouton">Réserver</button></a><br>
+
+	  	<strong>Nom:</strong>Nude Élégance  <br>  
+        <strong>Description:</strong> Une manucure soignée présentant une couleur nude délicate et classique sur des ongles courts et bien formés (ovales ou carrés arrondis). Le vernis, qui a un fini brillant, est une teinte rose-beige douce qui complète parfaitement la carnation. L'ensemble dégage une impression de simplicité, d'élégance et de professionnalisme. La pose semble fraîche et impeccable.<br>
+      <strong>Prix:5000Fcfa</strong>
+    </p><br>
+   
+
+ <img class="image17" src="17.JPG"><p class="text"><br>
+<a href="file:///C:/Users/UNCHK/Contacts/Desktop/xapp/htdocs/Salon_Aicha/Rendez%20vous.html"> <button class="bouton">Réserver</button></a><br>
+ 
+	  	<strong>Nom:</strong>(Coffin Nails) avec French Manucure inversée/V-cut et Ombré Rouge/Vin.  <br>  
+        <strong>Description:</strong>Ce sont de longs ongles artificiels en forme de cercueil (coffin) ou carrée allongée. Ils présentent une French manucure inversée ou en forme de "V" avec une couleur rouge foncé/bordeaux, et un dégradé (ombré) du rouge vers une base rose nude transparente. Certains ongles sont décorés de strass ou de petits motifs en forme d'étoile pour une touche glamour et dramatique.<br>
+      <strong>Prix:7000Fcfa</strong>
+      </p><br>
+
+<img class="image18" src="18.JPG"><p class="text"><br>
+	  	<a href="file:///C:/Users/UNCHK/Contacts/Desktop/xapp/htdocs/Salon_Aicha/Rendez%20vous.html"> <button class="bouton">Réserver</button></a><br>
+ 
+	  	<strong>Nom:</strong>Pédicure Ombrée ou Baby Boomer aux pieds.  <br>  
+        <strong>Description:</strong>
+C'est une pédicure avec un effet de dégradé (Ombré) sur les ongles d'orteil. Le dégradé se fait généralement d'un rose pâle/naturel à la base de l'ongle vers un blanc laiteux ou vif sur le bord libre (French Manucure dégradée). Les orteils sont aussi ornés de bagues d'orteil minces et ondulées.<br>
+     <strong>Prix:7000Fcfa</strong>
+</p><br>
+
+
+
+</div>
+</div>
+</body>
+</html>
+
+
+
+
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Salon de Coiffure Bienvenue chez wellness & beauty by aïcha</title>
+    <link rel="stylesheet" type="text/css" href="Rendez vous.css">
+</head>
+<body>
+    
+<img src="2.PNG" alt="logo du salon"><h1>Salon de Coiffure Bienvenue chez wellness & beauty by aïcha </h1>
+           
+    <nav>
+
+    <ul>
+
+    <li><a href="file:///C:/Users/UNCHK/Contacts/Desktop/xapp/htdocs/Salon_Aicha/index.html">Acceuil</a></li> 
+    <li><a href="file:///C:/Users/UNCHK/Contacts/Desktop/xapp/htdocs/Salon_Aicha/service.html">Services</a></li> 
+    <li><a href="file:///C:/Users/UNCHK/Contacts/Desktop/xapp/htdocs/Salon_Aicha/Rendez%20vous.html">Rendez vous</a></li>
+
+    </ul>
+
+</nav> 
+    <section>
+
+        <article>
+           <marquee> <div class="titre">Bienvenue au Salon de Coiffure Bienvenue chez wellness & beauty by aïcha !</div></marquee>
+            <p>
+                Découvrez nos services, prenez rendez-vous en ligne, et laissez nos experts prendre soin de vous.
+            </p>
+            <p>
+                <form method="POST" action="rendezvous.php">
+                    <h1>Prendre un Rendez-vous</h1>
+                    <fieldset>
+                        <legend>Informations Client</legend>
+                        <label for="prenom">Prénom :</label>
+                        <input type="text" id="prenom" name="prenom" required>
+                        
+                        <label for="nom">Nom :</label>
+                        <input type="text" id="nom" name="nom" required><br>
+                        
+                        <label for="email">Email :</label>
+                        <input type="email" id="email" name="email" required>
+                        
+                        <label for="telephone">Téléphone :</label>
+                        <input type="tel" id="telephone" name="telephone" required>
+                    </fieldset>
+                    
+                    <fieldset>
+                        <legend>Choix du Service</legend>
+                        <label for="service">Service :</label>
+                        <select id="service" name="service" required>
+                            <option value="">--Choisissez un service--</option>
+                            <option value="coupe">coupe Enfant</option>
+                            <option value="brushing">coupe femmme</option>
+                            <option value="couleur">coupe Homme</option>
+                        </select>
+
+                        <label for="service">Prix:</label>
+                        <select id="Prix" name="Prix" required>
+                            <option value="">--Choisissez le prix du coupe--</option>
+                            <option value="coupe">1000FCfa</option>
+                            <option value="coupe">1500FCfa</option>
+                            <option value="brushing">2000FCfa</option>
+                            <option value="couleur">2500FCfa</option>
+                            <option value="coupe">4000FCfa</option>
+                            <option value="coupe">5000FCfa</option>
+                            <option value="coupe">7000FCfa</option>
+                            <option value="coupe">8000FCfa</option>
+                            <option value="coupe">10000FCfa</option>
+
+                            
+                        </select>
+                    </fieldset>
+                    
+                    <fieldset>
+                        <legend>Date et Heure du Rendez-vous</legend>
+                        <label for="date">Date :</label>
+                        <input type="date" id="date" name="date" required>
+
+                        <label for="time">Heure :</label>
+                        <input type="time" id="time" name="time" required>
+                    </fieldset><br>
+                    
+                 
+
+                     <img class="image19" src="19.PNG" alt="logo du salon"><button type="submit">Valider le Rendez-vous</button>
+                </form>
+            </p>
+        </article>
+    </section>
+</body>
+</html>
+
+body {
+	
+      font-family: Arial, sans-serif;
+      background: #f2f2f2;
+      height: 100%;
+      width:100% 
+      align-items: center;
+      background:white;
+      box-shadow: 0 5px 15px rgba(2,0,0,0.2);
+       cursor: pointer
+    }
+   
+
+ .image1 {
+  height:100%;
+  width:100% ;
+  border-radius: 5%;
+}
+
+img {
+    height: 20%;
+      width:20% ;
+}
+
+.image3{
+
+  height:10%;
+  width:10% ;
+
+}
+
+.image4{
+
+  height:50%;
+  width:50% ;
+
+}
+
+.image5{
+
+  height:50%;
+  width:50% ;
+
+}
+
+.image6{
+
+  height:50%;
+  width:50% ;
+
+}
+
+.image15{
+
+  height:50%;
+  width:50% ;
+
+}
+
+nav {
+background-color: #007bff; /* Couleur bleue */
+padding:10px;
+text-align: center;
+position: sticky;
+top: 0;
+}
+
+nav ul {
+list-style: none;
+margin: 0;
+padding: 0;
+}
+
+nav li {
+display: inline-block;
+margin-right: 20px;
+}
+
+nav a {
+color: #ffffff; /* Couleur blanche pour les liens */
+text-decoration: none;
+}
+
+nav a:hover {
+color: #cccccc; /* Couleur grise pour les liens au survol */
+}
+
+.footer {
+
+  position:width;
+  bottom:0;
+  left: 0;
+  width:100;
+  background-color: #007bff;
+  color: #ffffff;
+  padding: 20px;
+  text-align:left;
+  float:left;
+  display:flex;
+
+}
+
+.HEUR{
+  position: right;
+  bottom:0;
+  left: 100;
+  width:100;
+  background-color: #007bff;
+  color: #ffffff;
+  padding: 10px;
+  text-align:right ;
+  float: right;
+  display:flex;
+}
+
+.image3{
+float: left;
+width:100px;
+height: 100px;
+margin-right:10px;
+}
+
+
+.text{
+  float: left;
+}
+
+
+.conteneur {
+  /*display: flex;*/
+  flex-direction: column;
+  align-items:right;
+}
+
+.conteneur img {
+  width: 20%;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.bouton {
+  background-color: #007bff;
+  color: #ffffff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  position: right;
+ 
+
+}
+
+.bouton:hover {
+  background-color: #0056b3;
+}
+
+.address{
+  padding: 30px;
+  margin-bottom: 20px;
+}
+
+ .GM {
+  position: right;
+align-items: center;
+   text-align: center; 
+}
+
+
+
+body {
+    background-color: ffffff;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    display:;
+    flex-direction: column;
+    /*align-items: center;*/
+}
+
+header {
+    height: 100px;
+    width: 960px;
+    background-color: #007bff;
+    color: white;
+    text-align: center;
+    line-height: 100px;
+}
+
+/*nav {*/
+    /*height: 30px;*/
+    width: 100px;
+    background-color:#eee ;
+    border-bottom: 1px solid #ddd;
+    border-top: 1px solid #ddd;
+}
+
+ul.menuhorizontal {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+ul.menuhorizontal li {
+    display: inline-block;
+    height: 30px;
+    line-height: 30px;
+    padding: 0 15px;
+    border-right: 1px solid #eee;
+}
+
+ul.menuhorizontal li a {
+    text-decoration: none;
+    color:  #ffffff;
+    font-size: 14px;
+}
+
+section {
+    width: 960px;
+    isplay: flex;
+    margin-top: 20px;
+    position: center;
+}
+
+aside {
+    width: 260px;
+    background-color: #ffffff;
+    padding: 10px;
+    border-right: 1px solid #ffffff;
+}
+
+article {
+    width: 700px;
+    background-color:  #007bff;;
+    padding: 10px;
+}
+
+div.titre {
+    height: 30px;
+    background-color: #007bff;
+    text-align: center;
+    line-height: 30px;
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 10px;
+    position: center;
+}
+
+h1{
+    background-color: #007bff; 
+    color:#ffffff;
+    align-items: center;
+    margin: 10px;
+    margin-right: 10px;
+    padding: 10px;
+   border-radius:10px ;
+
+}
+
+label{
+    color: #ffffff;
+    padding:5px;
+    
+}
+ 
+ input{
+    padding:5px;
+    margin-bottom:8px;
+ }
+
+fieldset{
+    color:#ffffff;
+    padding:5px;
+    margin-bottom:8px;
+
+
+}
+
+p{
+    color: #ffffff  ;
+}
+
+.titre {
+    color: #ffffff;
+}
+
+button {
+  background-color: #ffffff;
+  color: #007bff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  position: center;
+ 
+
+}
+
+button:hover {
+  background-color: #eeee;
+}
+
+nav {
+background-color: #007bff; /* Couleur bleue */
+padding: 10px;
+text-align: center;
+position: sticky;
+top: 0;
+}
+
+nav ul {
+list-style: none;
+margin: 0;
+padding: 0;
+}
+
+nav li {
+display: inline-block;
+margin-right: 20px;
+}
+
+nav a {
+color: #ffffff; /* Couleur blanche pour les liens */
+text-decoration: none;
+}
+
+nav a:hover {
+color: #cccccc; /* Couleur grise pour les liens au survol */
+}
+
+img {
+    height: 20%;
+      width:20% ;
+
+.image19 {
+   height:100%;
+   width:100%
+   width:100%;
+    }
+
+
